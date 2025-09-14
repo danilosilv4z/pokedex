@@ -1,0 +1,49 @@
+.painel{
+    background-color: red;
+    border: 10px solid yellow;
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+    padding-top: 10px;
+    text-align: center;
+    color: black;
+    margin: auto;
+    margin-top: auto;
+    box-shadow: 3px 3px 15px black;
+
+}
+#tela{
+    margin: auto;
+    background-color: aliceblue;
+    width: 300px;
+    height: 310px;
+    margin-bottom: 10px;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/80ff523f-ff84-457d-a547-464588d3a3d3/df1y9kh-c0955b87-3708-4ff5-8d39-9c2f6869084e.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi84MGZmNTIzZi1mZjg0LTQ1N2QtYTU0Ny00NjQ1ODhkM2EzZDMvZGYxeTlraC1jMDk1NWI4Ny0zNzA4LTRmZjUtOGQzOS05YzJmNjg2OTA4NGUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.eHng4sPsCNtWNu-E54CqLzbthEVYUn3vzsz9yRfQyrA);
+    background-size: cover;
+    border-radius: 10px;
+
+}
+#entrada{
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+button{
+    height: 35px;
+    margin: 7px;
+    background-color: black;
+    color: white;
+    border: 3px solid gray;
+    box-shadow: 3px 3px 5px black;
+}
+
+button:hover{
+    background-color: green;
+    height: 40px;
+}
+
+
+
+
+
