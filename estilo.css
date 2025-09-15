@@ -43,6 +43,25 @@ button:hover{
     height: 40px;
 }
 
+.nome-pokemon {
+  font-size: 28px;     /* bem maior para destaque */
+  font-weight: bold;
+  color: darkred;      /* cor chamativa */
+  margin: 10px 0;
+}
+
+.info-pokemon {
+  font-size: 18px;     /* um pouco maior que o padrão */
+  color: black;
+  margin: 5px 0;
+}
+
+.pokemon {
+  width: 150px;   /* aumenta o sprite */
+  height: 150px;
+}
+
+
 
 
 
