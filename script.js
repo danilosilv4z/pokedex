@@ -13,13 +13,14 @@ async function buscar() {
         var tela = document.getElementById("tela");
 
         tela.innerHTML =
-          "<h2>" + data.name + "</h2>"+
-          '<img class="pokemon" src="' + data.sprites.front_default + '">' +
-          '<p> ID:'+ data.id + '</p>' +
-          "<p><b>Tipo:</b> " + data.types.map(type => type.type.name).join(", ") + "</p>" +
-          "<p><b>Habilidades:</b> " + data.abilities.map(ability => ability.ability.name).join(", ") + "</p>";
+         "<h2 class='nome-pokemon'>" + data.name.toUpperCase() + "</h2>" + // nome grande
+         "<img class='pokemon' src='" + data.sprites.front_default + "'>" +
+         "<p class='info-pokemon'><b>ID:</b> " + data.id + "</p>" +
+         "<p class='info-pokemon'><b>Tipo:</b> " + data.types.map(type => type.type.name).join(", ") + "</p>" +
+         "<p class='info-pokemon'><b>Habilidades:</b> " + data.abilities.map(ability => ability.ability.name).join(", ") + "</p>";
       } catch (error) {
         document.getElementById("tela").innerHTML = "<p>Erro ao buscar Pokémon!</p>";
       }
     }
+
 
